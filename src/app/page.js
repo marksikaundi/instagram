@@ -2,6 +2,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>Nextjs build</div>
+    <div>
+      {/* Header */}
+
+      {/* Feed */}
+
+      {/* Modals */}
+    </div>
   )
 }
