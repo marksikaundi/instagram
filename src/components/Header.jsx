@@ -8,8 +8,11 @@ export default function Header() {
       <div className="">
         <div className="">
           <Image
-          src="https://th.bing.com/th/id/R.825e4d7b40faa8f9c51da0c73d6254d8?rik=RVfV80ATb%2boUhg&pid=ImgRaw&r=0"
-           />
+            src="https://th.bing.com/th/id/R.825e4d7b40faa8f9c51da0c73d6254d8?rik=RVfV80ATb%2boUhg&pid=ImgRaw&r=0"
+            width={40}
+            height={40}
+            alt="Logo"
+          />
         </div>
       </div>
 
