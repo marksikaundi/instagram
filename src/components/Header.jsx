@@ -28,8 +28,9 @@ export default function Header() {
 
       {/* middle */}
       <div className="">
-        <SearchIcon className="h-5 w-5 text-gray-500" />
+        <SearchIcon className="h-5 text-gray-500" />
       </div>
+      <input type="text" />
 
       {/* right */}
     </div>
