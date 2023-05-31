@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Search } from '@heroicons/react/24/solid'
-
+import { SearchIcon } from "@heroicons/react/outline";
 
 export default function Header() {
   return (
@@ -28,6 +27,9 @@ export default function Header() {
       </div>
 
       {/* middle */}
+      <div className="">
+        <SearchIcon className="h-5 w-5 text-gray-500" />
+      </div>
 
       {/* right */}
     </div>
