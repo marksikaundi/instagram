@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { Search } from '@heroicons/react/24/solid'
+
 
 export default function Header() {
   return (
