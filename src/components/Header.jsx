@@ -23,16 +23,17 @@ export default function Header() {
             className="object-contain"
           />
         </div>
-        <h1>Right side</h1>
       </div>
 
       {/* middle */}
-      <div className="">
-        <SearchIcon className="h-5 text-gray-500" />
+      <div className="relative">
+        <div className="absolute">
+          <SearchIcon className="h-5 text-gray-500" />
+        </div>
+        <input type="text" />
       </div>
-      <input type="text" />
-
       {/* right */}
+      <h1>Right side</h1>
     </div>
   );
 }
