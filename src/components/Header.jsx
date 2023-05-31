@@ -30,7 +30,7 @@ export default function Header() {
         <div className="absolute">
           <SearchIcon className="h-5 text-gray-500" />
         </div>
-        <input type="text" />
+        <input type="text" placeholder="Search" className="bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black  focus:border-black" />
       </div>
       {/* right */}
       <h1>Right side</h1>
